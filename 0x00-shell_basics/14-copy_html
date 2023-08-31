@@ -1,6 +1,0 @@
-#!/bin/bash
-cp -un * .html ../
-#!/bin/bash
-# Copy HTML files from current directory to parent directory if they are newer or don't exist
-#find . -maxdepth 1 -name "*.html" -newer ../ -exec cp -u -t ../ {} +
-
